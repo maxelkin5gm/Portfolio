@@ -1,0 +1,13 @@
+@import '_reset.scss';
+@import 'conteiners';
+@import 'animate';
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  background: #222222;
+  color: white;
+}

@@ -1,0 +1,70 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 70vh;
+
+  background: url('/img/about-background.png') no-repeat center, rgba(0, 0, 0, 0.75);
+  background-size: cover;
+  background-blend-mode: multiply;
+
+  border-radius: 5px;
+  
+  @media (max-width: 800px) {
+    background-position: 0 0;
+  }
+
+  @media (max-width: 350px) {
+    background-position: -50px 0;
+  }
+
+  &__content {
+    transition: all 0.5s;
+    padding: 50px;
+    text-align: end;
+
+    @media (max-width: 850px) {
+      padding: 15px;
+    }
+  }
+
+  &__title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    //margin-top: 10px;
+  }
+
+  &__text {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.7;
+  }
+
+  &__ticker {
+    min-height: 140px;
+    overflow: hidden;
+    padding: 20px;
+    background: rgba(255, 171, 0, 0.6);
+    opacity: .7;
+    display: flex;
+
+    div {
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      animation: ticker 12s linear infinite;
+    }
+  }
+
+  @keyframes ticker {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}

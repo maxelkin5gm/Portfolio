@@ -1,0 +1,27 @@
+.lineWrapper {
+  position: absolute;
+  z-index: -1;
+  top: 70px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  path {
+    opacity: 0.2;
+    stroke: #ffab00;
+    stroke-width: 5;
+    stroke-dasharray: 8000;
+    stroke-dashoffset: 8000;
+    animation: draw 30s linear forwards;
+  }
+
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

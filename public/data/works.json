@@ -1,0 +1,51 @@
+[
+  {
+    "title": "This site is example of work",
+    "stack": "React, SSR (NextJS), SCSS, BEM methodology, animations, Vercel deploy.",
+    "description": "Implementation of own design and best practices. Qualitatively adapted for mobile devices (check with devtool). All the benefits of SSR are enabled.",
+    "link": "https://github.com/maxelkin5gm/portfolio",
+    "img": "/img/works/portfolio.png",
+    "imgPhone": "/img/works/portfolio-mobile.png",
+    "sideImg": "right"
+  },
+  {
+    "title": "Warehouse automation",
+    "stack": "Java (Spring, jSerialComm), React (TypeScript, Redux, SCSS), PostgreSQL, SQLite, Arduino Controller (C++).",
+    "description": "Warehouse control panel. The software allows you to use the warehouse in an automated mode. Namely, to select the desired positions and deliver to the destination.",
+    "link": "https://github.com/maxelkin5gm/stas",
+    "img": "/img/works/STAS.png",
+    "imgPhone": "/img/works/STAS-mobile.png",
+    "sideImg": "left"
+  },
+
+  {
+    "title": "Website for ordering food",
+    "stack": "NodeJS (TypeScript) without frameworks, ESLint, joi, JWT, native JS, ejs, SCSS, MongoDB.",
+    "description": "The site allows you to browse the range of products by category and place orders. The user account contains his orders and delivery addresses. The admin panel manages products and orders.",
+    "link": "https://github.com/maxelkin5gm/bigrolls-online-store",
+    "img": "/img/works/bigrolls.png",
+    "imgPhone": "/img/works/bigrolls-mobile.png",
+    "sideImg": "right"
+  },
+
+  {
+    "title": "Learn Projects",
+    "stack": "Typescript, NodeJS (Express, JWT), React (Redux Toolkit, MobX, Axios), Layout (SCSS Modules. Styled-Components)",
+    "description": "Several study projects that demonstrate technology skills.",
+    "link": "https://github.com/maxelkin5gm/learn-projects-node-react",
+    "img": "/img/works/learnProjects.png",
+    "imgPhone": "/img/works/learnProjects-mobile.png",
+    "sideImg": "left"
+  },
+
+  {
+    "title": "AvitoBot notifications",
+    "stack": "Python, Selenium, Web Scraping, VkApi.",
+    "description": "Instant notifications of new ads on the Avito site.",
+    "link": "https://github.com/maxelkin5gm/avito-notifications-bot",
+    "img": "/img/works/avitoBot.png",
+    "imgPhone": "/img/works/avitoBot-mobile.png",
+    "sideImg": "right"
+  }
+
+]
