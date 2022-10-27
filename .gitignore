@@ -1,6 +1,9 @@
 # ide
 .idea
 
+# evn
+.env.local
+
 # dependencies
 /node_modules
 
