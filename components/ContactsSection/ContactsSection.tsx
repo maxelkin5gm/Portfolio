@@ -24,7 +24,7 @@ const ContactsSection = () => {
                     <a href="https://t.me/maxelkin5gm" target="_blank" rel="noreferrer">
                         <Image src="/img/social/telegram.png" alt="github" width={56} height={56}/>
                     </a>
-                    <a href="https://www.linkedin.com/in/maxim-elkin-8b1203255/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/maxelkin5gm/" target="_blank" rel="noreferrer">
                         <Image src="/img/social/linkedIn.png" alt="github" width={56} height={56}/>
                     </a>
                 </div>
