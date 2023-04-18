@@ -16,7 +16,7 @@ const AboutSection = () => {
                         I have a diploma from VyatSU &quot;Informatics and Computer Engineering&quot; and more 4 years diligently studying programming.
                         <br/>
                         <br/>
-                        During this time I have tested a large number of languages and technologies. For the past 2 years, I have been diving deeper into technologies such as java, spring, hibernate and other related ones.
+                        During this time I have tested a large number of languages and technologies. For the past 3 years, I have been diving deeper into the Web. Gained experience in frontend (React) and backend (Node, java) parts.
                         <br/>
                         <br/>
                         Now I am looking for new opportunities to grow and develop myself with a new team.
